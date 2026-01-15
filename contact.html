@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact-me</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="contact-body">
+<header>
+    <nav>
+        <a href="index.html" target="_blank" id="know">Home page</a>
+        <a href="About-me.html" target="_blank" id="me"> About-me</a>
+        <a href="contact.html" target="_blank" id="contact"> Contact-me </a>
+        <a href="gallery.html" target="_blank" id="gallery">gallery</a>   
+    </nav>    
+</header>  
+<main class="main-contact">
+    <h1 class="title">contact me</h1>
+    <form action="#" method="post" class="contact-form">
+    <section><label for="name"> Full name:</label>    
+    <input type="text" placeholder="Enter your name..." name="name" id="name" required></section>
+    <section><label for="email">email:</label>
+    <input type="email" placeholder="Enter your email..." name="email" id="email" required></section>
+    <section><label for="message">message:</label>
+    <textarea placeholder="type your message..." name="message" id="message" cols="40" rows="6" required></textarea></section>
+    <section><label for="gender">gender:</label>
+    <input type="radio" name="gender" id="male" required>
+    <label for="male">male</label>
+    <input type="radio" name="gender" id="female">
+    <label for="female" >female</label>
+    <label class="for">select your subject:</label>
+    <input type="checkbox" name="English" id="English">
+    <label for="English">English</label>
+    <input type="checkbox" name="Drawing" id="Drawing" >
+    <label for="Drawing">Drawing</label>
+    <input type="checkbox" name="coding" id="Coding">
+    <label for="Coding">Coding</label>
+    <section><button type="submit" >send</button></section></form></main>
+    <footer class="en"><a href="mailto:aishaazhand70@gmail.com">contact me</a></footer>
+</body>
+</html>
